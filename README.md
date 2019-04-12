@@ -9,3 +9,5 @@ This project will protect your process from the crackers.
 - IsEmulation() - Check if process is under emulation
 - SelfDelete() - It will delete the process itself
 - WellKnownSidType() - Memory Anti-Dumper
+
+Warning: Please use this protection code with any kind of strong obfuscator.
