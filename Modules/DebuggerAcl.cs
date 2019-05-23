@@ -30,6 +30,16 @@ namespace Nokae.DebugProtector
                     "httpdebug",
                     "fiddler",
                     "wireshark"
+                    "dbx"
+                    "mdbg"
+                    "gdb"
+                    "windbg"
+                    "dbgclr"
+                    "kdb"
+                    "kgdb"
+                    "mdb"
+                    "ProcessHacker"
+           
                 };
                 foreach (var process in Process.GetProcesses())
                     if (process != Process.GetCurrentProcess())
