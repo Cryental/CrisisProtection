@@ -11,3 +11,6 @@ This project will protect your process from the crackers.
 - WellKnownSidType() - Memory Anti-Dumper
 
 Warning: Please use this protection code with any kind of strong obfuscator.
+
+Contributors:
+- LilPidgey (https://github.com/LilPidgey)
