@@ -21,7 +21,7 @@ namespace Nokae.DebugProtector
                     "x32dbg",
                     "x64dbg",
                     "ollydbg",
-                    "ida -",
+                    "ida",
                     "charles",
                     "dnspy",
                     "simpleassembly",
@@ -29,17 +29,35 @@ namespace Nokae.DebugProtector
                     "httpanalyzer",
                     "httpdebug",
                     "fiddler",
-                    "wireshark"
-                    "dbx"
-                    "mdbg"
-                    "gdb"
-                    "windbg"
-                    "dbgclr"
-                    "kdb"
-                    "kgdb"
-                    "mdb"
-                    "ProcessHacker"
-           
+                    "wireshark",
+                    "dbx",
+                    "mdbg",
+                    "gdb",
+                    "windbg",
+                    "dbgclr",
+                    "kdb",
+                    "kgdb",
+                    "mdb",
+                    "processhacker",
+                    "scylla_x86",
+                    "scylla_x64",
+                    "scylla",
+                    "idau64",
+                    "idau",
+                    "idaq",
+                    "idaq64",
+                    "idaw",
+                    "idaw64",
+                    "idag",
+                    "idag64",
+                    "ida64",
+                    "ida",
+                    "ImportREC",
+                    "IMMUNITYDEBUGGER",
+                    "MegaDumper",
+                    "CodeBrowser",
+                    "reshacker",
+                    "cheat engine"
                 };
                 foreach (var process in Process.GetProcesses())
                     if (process != Process.GetCurrentProcess())
