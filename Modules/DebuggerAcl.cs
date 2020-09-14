@@ -15,7 +15,7 @@ namespace Nokae.DebugProtector
             }
             else
             {
-                var strArray = new string[13]
+                var strArray = new string[41]
                 {
                     "codecracker",
                     "x32dbg",
