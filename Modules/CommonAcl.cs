@@ -6,13 +6,13 @@ using Microsoft.Win32;
 internal class CommonAcl
 {
     [DllImport("kernel32.dll", EntryPoint = "GetModuleHandle")]
-    private static extern IntPtr GenericAcl([In] string obj0);
+    private static extern IntPtr GenericAcl(string lpModuleName);
 
     [DllImport("kernel32.dll", EntryPoint = "GetProcAddress")]
-    private static extern IntPtr TryCode([In] IntPtr obj0, [In] string obj1);
+    private static extern IntPtr TryCode(IntPtr hModule, string procName);
 
     [DllImport("kernel32.dll", EntryPoint = "GetFileAttributes", CharSet = CharSet.Auto, SetLastError = true)]
-    private static extern uint ISymbolReader([In] string obj0);
+    private static extern uint ISymbolReader(string lpFileName);
 
     internal static bool SecurityDocumentElement()
     {
